@@ -1,0 +1,14 @@
+C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\DataBinding_Example\bin\Debug\DataBinding_Example.exe.config
+C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\DataBinding_Example\bin\Debug\DataBinding_Example.exe
+C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\DataBinding_Example\bin\Debug\DataBinding_Example.pdb
+C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\DataBinding_Example\obj\Debug\DataBinding_Example.csprojResolveAssemblyReference.cache
+C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\DataBinding_Example\obj\Debug\MainWindow.g.cs
+C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\DataBinding_Example\obj\Debug\App.g.cs
+C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\DataBinding_Example\obj\Debug\DataBinding_Example_MarkupCompile.cache
+C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\DataBinding_Example\obj\Debug\DataBinding_Example_MarkupCompile.lref
+C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\DataBinding_Example\obj\Debug\MainWindow.baml
+C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\DataBinding_Example\obj\Debug\DataBinding_Example.g.resources
+C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\DataBinding_Example\obj\Debug\DataBinding_Example.Properties.Resources.resources
+C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\DataBinding_Example\obj\Debug\DataBinding_Example.csproj.GenerateResource.Cache
+C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\DataBinding_Example\obj\Debug\DataBinding_Example.exe
+C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\DataBinding_Example\obj\Debug\DataBinding_Example.pdb

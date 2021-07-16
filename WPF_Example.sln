@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyProperty_Example"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventRouting_Example", "EventRouting_Example\EventRouting_Example.csproj", "{B1EBC3CC-DD37-4427-BF68-03D3DB620E3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinding_Example", "DataBinding_Example\DataBinding_Example.csproj", "{6C1365C4-2687-48A3-AA15-F1EDDFCCA29E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B1EBC3CC-DD37-4427-BF68-03D3DB620E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1EBC3CC-DD37-4427-BF68-03D3DB620E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1EBC3CC-DD37-4427-BF68-03D3DB620E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C1365C4-2687-48A3-AA15-F1EDDFCCA29E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C1365C4-2687-48A3-AA15-F1EDDFCCA29E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C1365C4-2687-48A3-AA15-F1EDDFCCA29E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C1365C4-2687-48A3-AA15-F1EDDFCCA29E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
