@@ -2,13 +2,15 @@ C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\EventRouting_Ex
 C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\EventRouting_Example\bin\Debug\EventRouting_Example.exe
 C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\EventRouting_Example\bin\Debug\EventRouting_Example.pdb
 C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\EventRouting_Example\obj\Debug\EventRouting_Example.csprojResolveAssemblyReference.cache
-C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\EventRouting_Example\obj\Debug\MainWindow.g.cs
 C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\EventRouting_Example\obj\Debug\App.g.cs
 C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\EventRouting_Example\obj\Debug\EventRouting_Example_MarkupCompile.cache
 C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\EventRouting_Example\obj\Debug\EventRouting_Example_MarkupCompile.lref
-C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\EventRouting_Example\obj\Debug\MainWindow.baml
 C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\EventRouting_Example\obj\Debug\EventRouting_Example.g.resources
 C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\EventRouting_Example\obj\Debug\EventRouting_Example.Properties.Resources.resources
 C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\EventRouting_Example\obj\Debug\EventRouting_Example.csproj.GenerateResource.Cache
 C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\EventRouting_Example\obj\Debug\EventRouting_Example.exe
 C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\EventRouting_Example\obj\Debug\EventRouting_Example.pdb
+C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\EventRouting_Example\obj\Debug\MainWindow_Tunneling.g.cs
+C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\EventRouting_Example\obj\Debug\MainWindow_Bubbling.g.cs
+C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\EventRouting_Example\obj\Debug\MainWindow_Tunneling.baml
+C:\Users\joe88\Documents\Visual Studio 2015\Projects\WPF_Example\EventRouting_Example\obj\Debug\MainWindow_Bubbling.baml

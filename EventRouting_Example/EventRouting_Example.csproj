@@ -54,7 +54,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="MainWindow.xaml">
+    <Page Include="MainWindow_Tunneling.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow_Bubbling.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -62,8 +66,11 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+    <Compile Include="MainWindow_Tunneling.xaml.cs">
+      <DependentUpon>MainWindow_Tunneling.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow_Bubbling.xaml.cs">
+      <DependentUpon>MainWindow_Bubbling.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

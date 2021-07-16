@@ -1,11 +1,11 @@
-﻿<Window x:Class="EventRouting_Example.MainWindow"
+﻿<Window x:Class="EventRouting_Example.MainWindow_Bubbling"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EventRouting_Example"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525" ButtonBase.Click="Window_Click">
+        Title="MainWindow_Bubbling" Height="350" Width="525" ButtonBase.Click="Window_Click">
     <Grid>
         <StackPanel Margin="20" ButtonBase.Click="StackPanel_Click">
             <StackPanel Margin="10">
