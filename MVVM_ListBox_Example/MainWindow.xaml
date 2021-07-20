@@ -1,0 +1,59 @@
+﻿<Window x:Class="MVVM_ListBox_Example.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVM_ListBox_Example"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <local:EmployeeViewModel x:Key="Empoloyees"/>
+        <DataTemplate x:Key="template">
+            <Grid Width="400">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="150"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="{Binding Path=EmpNo}"/>
+                <TextBlock Grid.Column="1" Text="{Binding Path=EmpName}"/>
+                <TextBlock Grid.Column="2" Text="{Binding Path=EmpJob}"/>
+            </Grid>
+        </DataTemplate>
+    </Window.Resources>
+    <StackPanel Name="rootElement"
+                DataContext="{Binding Source={StaticResource Empoloyees}}"
+                DataContextChanged="rootElement_DataContextChanged">
+        <Grid Width="400">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="150"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition Height="20"/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock HorizontalAlignment="Center" Grid.ColumnSpan="3">사원리스트</TextBlock>
+            <Button Grid.Row="1" Grid.Column="0" Name="BtnEmpNo" Content="EmpNo" Click="OnClick"></Button>
+            <Button Grid.Row="1" Grid.Column="1" Name="BtnEmpName" Content="EmpName" Click="OnClick"></Button>
+            <Button Grid.Row="1" Grid.Column="2" Name="BtnEmpJob" Content="EmpJob" Click="OnClick"></Button>
+            <ListBox Grid.Row="2" Grid.ColumnSpan="3" Name="EmpListBox"
+                     ItemsSource="{Binding Source={StaticResource Empoloyees}}"
+                     ItemTemplate="{StaticResource template}"
+                     IsSynchronizedWithCurrentItem="True"
+                     ScrollViewer.HorizontalScrollBarVisibility="Disabled"/>
+            <TextBlock Foreground="Blue" Grid.Row="3" Grid.ColumnSpan="3">이전/이후/데이터필터링</TextBlock>
+            <Button Grid.Row="4" Grid.Column="0" Name="Previous" Click="OnMove">Previous</Button>
+            <Button Grid.Row="4" Grid.Column="1" Name="Next" Click="OnMove">Next</Button>
+            <Button Grid.Row="4" Grid.Column="2" Name="ShowOnly" Click="OnMove">Show Only Manager</Button>
+            <TextBlock Grid.Row="5" Grid.Column="0" Name="TbkEmpNo" Text="{Binding Path=EmpNo}"/>
+            <TextBlock Grid.Row="5" Grid.Column="1" Name="TbkEmpName" Text="{Binding Path=EmpName}"/>
+            <TextBlock Grid.Row="5" Grid.Column="2" Name="TbkEmpJob" Text="{Binding Path=EmpJob}"/>
+        </Grid>
+    </StackPanel>
+</Window>

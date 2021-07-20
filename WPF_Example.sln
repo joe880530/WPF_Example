@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventRouting_Example", "Eve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinding_Example", "DataBinding_Example\DataBinding_Example.csproj", "{6C1365C4-2687-48A3-AA15-F1EDDFCCA29E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM_ListBox_Example", "MVVM_ListBox_Example\MVVM_ListBox_Example.csproj", "{0521C3FE-246A-46B1-94DB-0B8919015D82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6C1365C4-2687-48A3-AA15-F1EDDFCCA29E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C1365C4-2687-48A3-AA15-F1EDDFCCA29E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C1365C4-2687-48A3-AA15-F1EDDFCCA29E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0521C3FE-246A-46B1-94DB-0B8919015D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0521C3FE-246A-46B1-94DB-0B8919015D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0521C3FE-246A-46B1-94DB-0B8919015D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0521C3FE-246A-46B1-94DB-0B8919015D82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
